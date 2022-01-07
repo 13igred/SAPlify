@@ -1,0 +1,50 @@
+﻿SAPlify - David Maloney 18/08/2021
+
+------------------------------------------------------------------------------
+V1.1.5 - Release 23/12/2021
+	Added code to prevent job duplicaiton
+	Added code to prevent doubling of user's time by adding themselves to the
+	additional worker tab
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+V1.1.4 - Release 14/12/2021
+	Change to process
+	Doesn't open SAP unless requested.
+	Will process 100 jobs then stop until manually started again
+	Bug fixes and code tidy up
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+V1.1.3 - Release 18/11/2021
+	Bug fixes yay
+	Issue with random shutdown - looks to be in sap checking routine
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+V1.1 - Release 9/11/2021
+	First major update
+	This updates removes the program's requirement to access emails and 
+	instead uses SharePoint's API to request information directly.
+
+	This was a fairly large change in program process - and enables any 
+	Pepsico employee to run this app and process jobs. 
+	
+	The major goal for the next update is to use Windows Credentials to log
+	into SAP without requiring the user to input any additional data. 
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+V1.0 - Release 18/08/2021
+	First release
+	Program is designed to download and read an input file
+	in the form of a .txt file from outlook.
+
+	The file contains information nessacary to process a VBA macro for SAP
+	This program inputs the file contents into an excel spreadsheet and 
+	executes the VBA macro.
+
+	Once this is done the program looks for the next file in the email list.
+	In addition the program will open SAP when provided with suitable 
+	credentials. 
+------------------------------------------------------------------------------
